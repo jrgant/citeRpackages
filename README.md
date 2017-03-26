@@ -1,7 +1,6 @@
 # citeRpackages
-Simple function to generate a .bib file to cite R packages
 
-Give citeR a list of packages you want to cite and tell it what to name your file:
+Give `citeRpacks()` a list of packages you want to cite and tell it what to name your file:
 
 `my_packs <- c("ggplot2", "Hmisc", "base")`
 
