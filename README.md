@@ -1,5 +1,6 @@
 # citeRpackages
 
+Give `citeRpacks()` a list of packages you want to cite, tell it what to name your file, and if you're using RStudio, indicate whether to include an entry for the program (defaults to `FALSE`):
 
 `my_packs <- c("ggplot2", "Hmisc", "base")`
 
