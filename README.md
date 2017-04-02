@@ -1,10 +1,11 @@
 # citeRpackages
 
-Give `citeRpacks()` a list of packages you want to cite and tell it what to name your file:
 
 `my_packs <- c("ggplot2", "Hmisc", "base")`
 
-`citeRpacks(my_packs, "mybibfile")`
+`citeRpacks(my_packs, "mybibfile", RStudio = TRUE)`
+
+To cite R itself, include `"base"` in your package list.
 
 The function will save a .bib file to your working directory, which you can upload to reference managers that accept them for import.
 
